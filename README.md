@@ -34,17 +34,23 @@ The variance for all the manufacturing lots in total is 62.29 which does not exc
 
 ## T-Tests on Suspension Coils
 
-![t-test](Resources/t-test.png)
-
 ### Briefly summarize your interpretation and findings for the t-test results
 
-We ran t-tests accross the total of the three manufacturing lots and then each individual manufacturing lot to determine whether the PSI accross the manufacturing lots were statistically different from the population mean of 1,500 PSI. When looking at the t-test for the total of all lots, the p-value was .060 which is higher than the common significance level of .05. This mean that there is not enough evidence to reject the null hypothesis.
+![t-test total](Resources/t-test_total.png)
 
-When we look at lot 1, we see that the p-value is 1. Because it is higher than the common significance of .05, we cannot reject the null hypothesis that there is no statistical difference between the observed mean and the hypothesized mean of 1500.
+We ran t-tests accross the total of the three manufacturing lots and then each individual manufacturing lot to determine whether the PSI accross the manufacturing lots were statistically different from the population mean of 1,500 PSI. When looking at the t-test for the total of all lots, the p-value was .060 which is higher than the common significance level of .05. This mean that there is not enough evidence to reject the null hypothesis. The total t-test is located in the screenshot above.
 
-The same goes for lot 2, which as p-value of .607. Since this is higher than the common significance of .05, we again cannot reject the null hyptothesis.
+![t-test lot 1](Resources/t-test_lot1.png)
 
-But when we look at lot 3, we see that the p-value is .0416. This value is less than the common significance of .05. This indicated that we can reject the null hypothesis that the sample mean and hypothesized mean are not statistically different.
+When we look at lot 1, we see that the p-value is 1. Because it is higher than the common significance of .05, we cannot reject the null hypothesis that there is no statistical difference between the observed mean and the hypothesized mean of 1500. The lot 1 t-test is located in the screenshot above.
+
+![t-test lot 2](Resources/t-test_lot2.png)
+
+The same goes for lot 2, which as p-value of .607. Since this is higher than the common significance of .05, we again cannot reject the null hyptothesis. The lot 2 t-test is located in the screenshot above.
+
+![t-test lot 3](Resources/t-test_lot3.png)
+
+But when we look at lot 3, we see that the p-value is .0416. This value is less than the common significance of .05. This indicated that we can reject the null hypothesis that the sample mean and hypothesized mean are not statistically different. The lot 3 t-test is located in the screenshot above.
 
 ## Study Design: MechaCar vs Competition
 
